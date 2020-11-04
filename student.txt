@@ -1,0 +1,4 @@
+Student name: Harmon Vermeeren
+Student number: 662912
+Student class: HAINFVT1C
+URL student GitHub repository: https://github.com/zeeko683/School-project
