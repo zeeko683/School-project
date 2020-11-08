@@ -3,6 +3,11 @@
 
 *{margin: 0;} 
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
 .logo {
     display: block;
     margin-left: auto;
@@ -43,4 +48,116 @@ li a {
 
 li a:hover {
   color: orange;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto auto auto auto auto auto auto auto auto ;
+    grid-template-areas: 
+    "article2 article1 article3"
+    "article2 article1 article3"
+    "article5 article1 article3"
+    "article5 article1 article4"
+    "article5 article1 article4"
+    "article5 article1 article4"
+    "article5 article6 article6"
+    "aside1   aside2   aside3"
+    "aside1   aside2   aside3"    
+}
+
+#article1 {
+    grid-area: article1;
+    margin: 5px;
+}
+
+#article2 {
+    grid-area: article2;
+    margin: 5px;
+}
+#article3 {
+    grid-area: article3;
+    margin: 5px;
+}
+#article4 {
+    grid-area: article4;
+    margin: 5px;
+}
+#article5 {
+    grid-area: article5;
+    margin: 5px;
+}
+#article6 {
+    grid-area: article6;
+    margin: 5px;
+}
+#aside1 {
+    grid-area: aside1;
+    margin: 5px;
+}
+#aside2 {
+    grid-area: aside2;
+    margin: 5px;
+}
+#aside3 {
+    grid-area: aside3;
+    margin: 5px;
+}
+    
+.imgA {
+    width: 200px;
+    height: auto;
+}
+
+.container > article {
+    border: 1px black solid;
+}
+
+.container > aside {
+    border: 1px black solid;
+}
+
+/* footer sectie */
+#section {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 10em;
+    background-color:#FA0 ;
+    padding: 10px;
+    text-align: center;
+    opacity: 50%;
+}
+
+#cookie {
+    color:  #FFF ;
+    left: 0;
+    bottom: 0;
+}
+
+/* fotos in het midden */
+aside img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+.containerF {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto auto;
+    grid-template-areas: 
+    "Copy   Copy  cookie"
+    "Copy   Copy  coookie"    
+}
+
+
+
+#Copy {
+    position: fixed ;
+    left: 0;
+    bottom: 0;
 }

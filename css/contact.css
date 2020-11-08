@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*{margin: 0;} 
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#topHeader  { 
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+li {
+  float: left;
+  margin: 5px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16PX;
+  text-decoration: none;
+  font-family:'notable', sans-serif ;
+}
+
+li a:hover {
+  color: orange;
+}
+
+/* Footer */
+
+
+footer {
+  position: relative;
+}
+
+#section {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 10em;
+    background-color:#FA0 ;
+    padding: 10px;
+    text-align: center;
+    opacity: 50%;
+}
+
+#cookie {
+    color:  #FFF ;
+}
+
+
+
+#copy {
+  position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+aside img {
+float: left;
+width: 10%;
+height: auto;
+padding: 5px;
+}
+
+
+
+/* invul box */
+input {
+  opacity: 50%;
+  
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  color: black;
+  padding: 14px 20px;
+  margin-left: 25%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  

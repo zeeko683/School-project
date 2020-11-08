@@ -3,6 +3,11 @@
 
 *{margin: 0;} 
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 video {
     width: 99%;
     height: auto;
