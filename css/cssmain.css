@@ -56,32 +56,88 @@ li a:hover {
 }
 
 
-.imgArticlel {
-    float: right;
-}
-
-
 .bigfont {
    font-size: 5px;
 }
 
-.article1 {
- flex-basis: 100%;
-  flex-grow: 1;
+#copy {
+  position: fixed ;
+  left: 0;
+  bottom: 0;
 }
 
-aside {
-  width: 500px;
-  height: auto;
-  float: right;
-  clear: both;
+#cookie {
+  color:  #FFF ;
+  left: 0;
+  bottom: 0;
 }
 
-.articleText1 {
-  float: left;
+#section {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 10em;
+  background-color:#FA0 ;
+  padding: 10px;
+  text-align: center;
+  opacity: 50%;
 }
+
+.aside {
+flex-grow: 1;
+}
+
 
 .footer1 {
   float: right;
   clear: both;
 }
+
+.sectionNormal {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  float: left;
+}
+#articleSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+.article1 {
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+.article2 {
+  flex-grow: 0;
+  flex-basis: 100%;
+}
+
+.article3 {
+  flex-grow: 0;
+  flex-basis: 100%;
+}
+.article4 {
+  float: right;
+}
+.imgA {
+  float: right;
+  height: 150px;
+  width: 250px;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  margin-top: -150px;
+}
+section .figure {
+  float: right;
+}
+@media screen and (min-width: 1280px) {
+
+}
+
+
+@media screen and (max-width: 480px){
+
+}
+
+/* Ik ga nooit meer met flexbox werken, dat weet ik zeker */
