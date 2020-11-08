@@ -73,7 +73,7 @@ footer {
 
 
 
-#copy {
+#Copy {
   position: absolute;
     bottom: 0;
     left: 0;
@@ -112,4 +112,4 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  
+}
